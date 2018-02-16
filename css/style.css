@@ -1,0 +1,39 @@
+*{
+  font-family: helvetica, garamond;
+  
+}
+body{
+  width:860px;
+  margin: 0px auto;
+}
+header{
+  font-family: helvetica, garamond;
+
+}
+nav li{
+  display: inline-block;
+}
+span {
+  display: ;
+}
+nav {
+  float:right;
+}
+#hero {
+  width: 100%;
+}
+.text {
+  padding-top: 50px;
+  padding-bottom:30px;
+}
+section p{
+  margin-top:30px;
+  text-indent: 20px;
+}
+div {
+  background-image: url('../img/list-bg.png');
+}
+a { 
+  text-decoration: none;
+  color: black;
+}
