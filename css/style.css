@@ -8,7 +8,8 @@ body{
 }
 header{
   font-family: helvetica, garamond;
-
+  padding-bottom:30px;
+  border-bottom: 5px dotted grey;
 }
 header h2{
   
@@ -79,11 +80,12 @@ nav {
 .text {
   padding-top: 50px;
   padding-bottom:30px;
+  
 }
 section p{
   margin-top:30px;
   text-indent: 20px;
-  font-family:'Oswald', sans-serif;
+  font-family:'Times New Roman', Times, serif, serif;
 
 }
 div {
@@ -91,11 +93,24 @@ div {
 }
 a { 
   text-decoration: none;
-  color: black;
+
+  color: grey;
+  text-transform: uppercase;
+  float:right;
+  font-size:12px;
+  margin-bottom:15px;
+
 }
-div#background-mig{
+li:nth-last-of-type(2){
+margin-left: 8px;
+}
+
+div#background-img{
   background-image: url('../img/list-bg.png') no-repeat center cover;
   object-fit: contain;
+  padding-bottom:20px;
+  background-repeat: no-repeat;
+  border-bottom: 5px dotted grey;
 }
 main div ul{
 display: inline-block;
@@ -126,6 +141,7 @@ main section#bottom h3{
   width: 200px;
   margin-left: 25px;
 }
+
 main section#bottom p{
   width: 600px;
   padding: 0;
@@ -149,5 +165,5 @@ footer{
   text-align: center;
 }
 footer img{
-  size: 5px:
+  size: 5px;
 }
