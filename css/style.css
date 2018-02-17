@@ -10,17 +10,71 @@ header{
   font-family: helvetica, garamond;
 
 }
+header h2{
+  
+  font-family:'Dancing Script', cursive;
+  font-size:38px;
+  font-weight:bold;
+  width:250px;
+  padding-top: 38px;
+  margin-top:7px;
+  margin-right:15px;
+ 
+}
+header p{
+  display:inline-block;
+  text-transform: uppercase;
+  font-size:8px;
+  margin-top:1px;
+  margin-right: 15px;
+  padding-top:1px;
+  
+}
+#logo {
+  padding-top:40px;
+  float:left;
+  width:45px;
+  margin-right:10px;
+}
+h1 {
+  
+  margin-top:40px;
+  margin-bottom:5px;
+  padding-bottom:5px;
+  padding-bottom:5px;
+  color: black;
+  font-weight: bold;
+  font-size: 30px;
+  font-family: 'Oswald', sans-serif;
+
+}
+
+.herotitle p {
+  display:inline-block;
+  color:grey;
+  text-transform:uppercase;
+  font-family: 'Oswald', sans-serif;
+  font-size:10px;
+  margin-top:3px;
+  padding-top:2px;
+  margin-left:0px;
+  padding-left:0px;
+  width:200px;
+}
+
 nav li{
   display: inline-block;
 }
-span {
-  display: ;
-}
+
 nav {
   float:right;
 }
+
 #hero {
+  float:right;
   width: 100%;
+  margin-top:5px;
+  margin-bottom:30px;
 }
 .text {
   padding-top: 50px;
@@ -29,12 +83,15 @@ nav {
 section p{
   margin-top:30px;
   text-indent: 20px;
+  font-family:'Oswald', sans-serif;
+
 }
 div {
   background-image: url('../img/list-bg.png');
 }
 a { 
   text-decoration: none;
+<<<<<<< HEAD
   color: black;
 }
 div#background-mig{
@@ -68,3 +125,15 @@ main section#bottom h3{
   width: 200px;
   margin-left: 25px;
 }
+=======
+  color: grey;
+  text-transform: uppercase;
+  float:right;
+  font-size:12px;
+  margin-bottom:15px;
+  
+}
+li:nth-last-of-type(2){
+  margin-left: 8px;
+}
+>>>>>>> 89024d14c37141655fce26a172b58567d0a90c8c
