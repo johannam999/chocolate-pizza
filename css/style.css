@@ -93,6 +93,7 @@ div {
 }
 a { 
   text-decoration: none;
+
   color: grey;
   text-transform: uppercase;
   float:right;
@@ -103,6 +104,7 @@ a {
 li:nth-last-of-type(2){
 margin-left: 8px;
 }
+
 div#background-img{
   background-image: url('../img/list-bg.png') no-repeat center cover;
   object-fit: contain;
@@ -123,14 +125,16 @@ main div ul li{
 }
 main section#bottom{
   padding: 25px;
-
+  display: inline-block;
+  width: 100%;
 }
 main section#bottom img{
   float: left;
  
 }
 main section#bottom span{
- 
+ font-size: 17px;
+ width: 300px;
 }
 main section#bottom h3{
   display: inline-block;
@@ -138,5 +142,28 @@ main section#bottom h3{
   margin-left: 25px;
 }
 
-
-
+main section#bottom p{
+  width: 600px;
+  padding: 0;
+  margin: 0px left;
+}
+main section#bottom button{
+  float: right;
+  size: 25px;
+  background-color: rgb(201, 46, 46);
+  padding: 15px 32px;
+  margin-top: 0px;
+  color: antiquewhite;
+}
+ 
+li:nth-last-of-type(2){
+  margin-left: 8px;
+}
+footer{
+  font-size: 10px;
+  margin: 0px auto;
+  text-align: center;
+}
+footer img{
+  size: 5px;
+}
