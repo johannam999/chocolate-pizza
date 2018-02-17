@@ -91,7 +91,6 @@ div {
 }
 a { 
   text-decoration: none;
-<<<<<<< HEAD
   color: black;
 }
 div#background-mig{
@@ -125,7 +124,6 @@ main section#bottom h3{
   width: 200px;
   margin-left: 25px;
 }
-=======
   color: grey;
   text-transform: uppercase;
   float:right;
@@ -136,4 +134,3 @@ main section#bottom h3{
 li:nth-last-of-type(2){
   margin-left: 8px;
 }
->>>>>>> 89024d14c37141655fce26a172b58567d0a90c8c
