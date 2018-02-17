@@ -91,6 +91,40 @@ div {
 }
 a { 
   text-decoration: none;
+  color: black;
+}
+div#background-img{
+  background-image: url('../img/list-bg.png') no-repeat center cover;
+  object-fit: contain;
+}
+main div ul{
+display: inline-block;
+margin: 60px;
+}
+main div ul#box {
+  display: inline-block;
+  margin: 75px;
+}
+main div ul li{
+  margin: 5px;
+}
+main section#bottom{
+  padding: 25px;
+
+}
+main section#bottom img{
+  float: left;
+ 
+}
+main section#bottom span{
+ 
+}
+main section#bottom h3{
+  display: inline-block;
+  width: 200px;
+  margin-left: 25px;
+}
+
   color: grey;
   text-transform: uppercase;
   float:right;
@@ -101,3 +135,4 @@ a {
 li:nth-last-of-type(2){
   margin-left: 8px;
 }
+
